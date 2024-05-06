@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Oxy.</title>
+    <link rel="stylesheet" href="Contactpage/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="cursor"></div>
+    <div class="contact-container">
+      <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+        <div class="contact-left-title">
+          <h3>Get in touch</h3>
+          <hr>
+        </div>
+        <input type="hidden" name="access_key" value="eb4bf36e-7803-4386-9bfb-a49cc16f7059">
+        <input
+          type="text"
+          name="name"
+          placeholder="Your Name"
+          class="contact-inputs"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          class="contact-inputs"
+          required
+        />
+        <textarea
+          name="message"
+          placeholder="Your Message"
+          class="contact-inputs"
+          required
+        ></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <div class="contact-right"></div>
+      <img src="images/undraw_Forms_re_pkrt-removebg-preview.png" alt="">
+    </div>
+    <script src="Contactpage/contact.js"></script>
+  </body>
+</html>
